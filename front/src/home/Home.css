@@ -1,0 +1,74 @@
+
+.Home{
+	height: 100vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.Home-list{
+	 width: 500px;
+	flex-direction: column;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.Home-item{
+	padding: 10px 20px;
+  width: 500px;
+	color: blue;
+	display: flex;
+  justify-content: space-between;
+}
+.Home-title{
+	padding: 10px 20px;
+  width: 500px;
+	color: blue;
+	display: flex;
+	background: #9090d6;
+  justify-content: space-between;
+}
+.Home-item__user_name{
+	padding: 10px 20px;
+}
+.Home-item__group_name{
+	padding: 10px 20px;
+}
+.Home-item__subscribers{
+	padding: 10px 20px;
+}
+.Home-item__btn{
+	border: 1px solid #9090d6;
+	width: 100px;
+	padding: 10px 20px;
+	background: #cccccc;
+}
+.following{
+	color: green;
+}
+.follow{
+	color: orange;
+}
+.following:disabled{
+	border: 1px solid #aeaeae;
+	background: #cccccc;
+	color: gray;
+}
+.follow:disabled{
+	border: 1px solid #aeaeae;
+	background: #cccccc;
+	color: gray;
+}
+.following:hover:enabled span{
+	display: none;
+}
+.following:hover:enabled:before{
+	color: red;
+	content: 'Unfollow'
+}
+.follow:hover:enabled span{
+	display: none;
+}
+.follow:hover:enabled:before{
+	color: green;
+	content: 'Following'
+}

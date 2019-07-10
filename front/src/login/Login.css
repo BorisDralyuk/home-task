@@ -1,0 +1,30 @@
+.Login{
+	height: 100vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.Login-card{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+}
+.Login-card__text{
+	width: 200px;
+	height: 30px;
+}
+.Login-card__btn{
+	width: 205px;
+	height: 40px;
+	margin-top: 20px;
+	border: 1px solid #9090d6;
+	background: #cccccc;
+}
+.Login-card__btn:hover:enabled{
+	background: #8f8fb8;
+	cursor: pointer;
+}
+.Login-card__btn:hover:disabled{
+	background: #cccccc;
+}
